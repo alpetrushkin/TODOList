@@ -38,7 +38,8 @@ class EmployersListItem extends Component {
 					<li className={classNames}>
 						 <span
 								 className="list-group-item-label"
-								 onClick={this.onRise}>
+								 onClick={this.onRise}
+						 >
 								{name}
 						 </span>
 						 <input type="text" className="list-group-item-input" defaultValue={salary}/>
